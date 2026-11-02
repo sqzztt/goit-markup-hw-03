@@ -21,6 +21,6 @@
 .features {
   padding: 120px 0;
 }
-.features-item li {
+.features-item {
   width: calc((100% - 72px) / 4);
 }
