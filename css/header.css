@@ -73,6 +73,6 @@
   display: flex;
   align-items: center;
 }
-#header {
+.header {
   border-bottom: 1px solid #e7e9fc;
 }

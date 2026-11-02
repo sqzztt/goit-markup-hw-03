@@ -26,10 +26,8 @@
   flex-direction: row;
   gap: 0;
   border-radius: 4px;
-
-  width: 169px;
-  height: 56px;
-  max-width: 169px;
+  padding: 16px 32px;
+  border: none;
 }
 .hero-button:hover {
   background: #404bbf;

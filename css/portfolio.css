@@ -39,7 +39,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 24px;
+  gap: 48px 24px;
 }
 .portfolio-card {
   display: flex;
@@ -50,7 +50,6 @@
 
   width: calc((100% - 48px) / 3);
 
-  height: 420px;
   background: #fff;
   background: #fff;
 }
@@ -65,7 +64,7 @@
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
   width: 100%;
-  height: 120px;
+
   background: #fff;
 }
 .portfolio-card img {
