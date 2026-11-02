@@ -46,9 +46,6 @@
 .header-link:hover {
   color: #404bbf;
 }
-.header-link:hover {
-  color: #404bbf;
-}
 
 .header-list {
   display: flex;
@@ -59,7 +56,7 @@
 .header-address-list {
   display: flex;
   gap: 40px;
-  margin-left: 340px;
+
   align-items: center;
   justify-content: center;
   flex-direction: row;
@@ -75,4 +72,7 @@
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+}
+.header-address {
+  margin-left: auto;
 }
