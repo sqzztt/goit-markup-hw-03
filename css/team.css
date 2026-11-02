@@ -59,7 +59,6 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 72px;
 }
 .card-content {
   display: flex;

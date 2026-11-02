@@ -37,14 +37,9 @@
 .hero-button:focus {
   background: #404bbf;
 }
-.hero .container {
+.hero-container {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
   flex-direction: column;
+  align-items: center;
   gap: 48px;
-  padding: 0 15px;
-  width: 1158px;
-
-  max-width: 1158px;
 }
