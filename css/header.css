@@ -16,7 +16,7 @@
   color: #2e2f42;
   text-decoration: none;
   font-weight: 500;
-
+  padding: 24px 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -39,10 +39,31 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
 }
 .header-link:hover {
   color: #404bbf;
 }
 .header-link:hover {
   color: #404bbf;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.header-address-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 340px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.logo-header {
+  margin-right: 76px;
 }

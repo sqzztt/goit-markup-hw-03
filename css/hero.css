@@ -1,5 +1,6 @@
 .hero {
   background: #2e2f42;
+  padding: 188px 141px 188px 141px;
 }
 .hero-text {
   font-weight: 700;
@@ -8,6 +9,8 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin: auto;
+  max-width: 496px;
 }
 .hero-button {
   font-weight: 500;
@@ -16,10 +19,32 @@
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0;
+  border-radius: 4px;
+
+  width: 169px;
+  height: 56px;
+  max-width: 169px;
 }
 .hero-button:hover {
   background: #404bbf;
 }
 .hero-button:focus {
   background: #404bbf;
+}
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 48px;
+  padding: 0 15px;
+  width: 1158px;
+
+  max-width: 1158px;
 }

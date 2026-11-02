@@ -12,3 +12,17 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
+.features-list {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+.features {
+  padding: 120px 141px 120px 141px;
+}
+.features-list li {
+  width: calc((100% - 72px) / 4);
+}
+.features-list li h3 {
+  margin-bottom: 8px;
+}
